@@ -24,5 +24,5 @@ for i in range(0,len(text)-3,3):
     if(rna_codon_dict[sub].lower()=="stop"):
         break
     protein+=rna_codon_dict[sub]
-    
+print(rna_codon_dict)    
 print(protein)
